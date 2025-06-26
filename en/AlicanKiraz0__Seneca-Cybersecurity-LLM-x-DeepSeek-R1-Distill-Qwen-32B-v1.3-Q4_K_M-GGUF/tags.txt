@@ -1,0 +1,16 @@
+transformers
+gguf
+qwen2.5
+cybersecurity
+ethicalhacking
+informationsecurity
+pentest
+text-generation
+en
+tr
+base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+base_model:quantized:deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+license:mit
+endpoints_compatible
+region:us
+conversational

@@ -1,0 +1,10 @@
+gguf
+chat
+text-generation
+en
+base_model:Qwen/Qwen2-7B-Instruct
+base_model:quantized:Qwen/Qwen2-7B-Instruct
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

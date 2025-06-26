@@ -1,0 +1,11 @@
+transformers
+gguf
+swe-bench
+text-generation
+base_model:Skywork/Skywork-SWE-32B
+base_model:quantized:Skywork/Skywork-SWE-32B
+license:apache-2.0
+endpoints_compatible
+region:us
+imatrix
+conversational

@@ -1,0 +1,9 @@
+gguf
+text-generation
+en
+base_model:Nitral-AI/Nera_Noctis-12B
+base_model:quantized:Nitral-AI/Nera_Noctis-12B
+license:other
+endpoints_compatible
+region:us
+conversational

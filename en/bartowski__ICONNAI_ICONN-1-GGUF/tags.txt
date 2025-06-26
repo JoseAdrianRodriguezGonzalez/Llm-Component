@@ -1,0 +1,11 @@
+gguf
+emotional-ai
+ICONN
+chatbot
+base
+text-generation
+license:other
+co2_eq_emissions
+endpoints_compatible
+region:us
+imatrix

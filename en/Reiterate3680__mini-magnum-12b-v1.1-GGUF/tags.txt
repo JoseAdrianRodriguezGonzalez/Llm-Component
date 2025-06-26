@@ -1,0 +1,10 @@
+gguf
+text-generation
+en
+base_model:intervitens/mini-magnum-12b-v1.1
+base_model:quantized:intervitens/mini-magnum-12b-v1.1
+license:other
+endpoints_compatible
+region:us
+imatrix
+conversational

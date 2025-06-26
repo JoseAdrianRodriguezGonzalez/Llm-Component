@@ -1,0 +1,11 @@
+transformers
+gguf
+llama
+llama-2
+text-generation
+code
+arxiv:2308.12950
+base_model:codellama/CodeLlama-13b-hf
+base_model:quantized:codellama/CodeLlama-13b-hf
+license:llama2
+region:us

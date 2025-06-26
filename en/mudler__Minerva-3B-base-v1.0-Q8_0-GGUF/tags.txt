@@ -1,0 +1,11 @@
+gguf
+pretrained
+llama-cpp
+gguf-my-repo
+text-generation
+it
+en
+dataset:uonlp/CulturaX
+license:apache-2.0
+endpoints_compatible
+region:us

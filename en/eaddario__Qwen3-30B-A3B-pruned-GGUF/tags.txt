@@ -1,0 +1,14 @@
+gguf
+quant
+pruned
+experimental
+text-generation
+en
+dataset:eaddario/imatrix-calibration
+base_model:Qwen/Qwen3-30B-A3B
+base_model:quantized:Qwen/Qwen3-30B-A3B
+license:apache-2.0
+endpoints_compatible
+region:us
+imatrix
+conversational

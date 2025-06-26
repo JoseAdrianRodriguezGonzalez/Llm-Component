@@ -1,0 +1,12 @@
+transformers
+gguf
+chat
+bitnet
+text-generation
+large-language-model
+en
+arxiv:2504.12285
+license:mit
+endpoints_compatible
+region:us
+conversational

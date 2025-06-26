@@ -1,0 +1,10 @@
+gguf
+baichuan
+not-for-all-audiences
+text-generation
+zh
+dataset:zxbsmk/instruct_short_novel
+base_model:zxbsmk/NSFW_13B_sft
+base_model:quantized:zxbsmk/NSFW_13B_sft
+license:apache-2.0
+region:us

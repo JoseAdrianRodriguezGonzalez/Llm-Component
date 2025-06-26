@@ -1,0 +1,10 @@
+gguf
+chat
+text-generation
+en
+base_model:Doctor-Shotgun/L3.3-70B-Magnum-Diamond
+base_model:quantized:Doctor-Shotgun/L3.3-70B-Magnum-Diamond
+license:llama3.3
+endpoints_compatible
+region:us
+imatrix

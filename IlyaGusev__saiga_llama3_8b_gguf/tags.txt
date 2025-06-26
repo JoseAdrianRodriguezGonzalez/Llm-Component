@@ -1,0 +1,7 @@
+gguf
+text-generation
+ru
+dataset:IlyaGusev/saiga_scored
+license:other
+region:us
+conversational

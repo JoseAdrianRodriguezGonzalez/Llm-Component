@@ -1,0 +1,13 @@
+transformers
+gguf
+phi
+nlp
+math
+code
+chat
+conversational
+text-generation
+en
+license:mit
+endpoints_compatible
+region:us

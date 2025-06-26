@@ -1,0 +1,16 @@
+gguf
+nvidia
+reasoning
+math
+code
+supervised fine-tuning
+reinforcement learning
+text-generation
+en
+arxiv:2506.13284
+base_model:nvidia/AceReason-Nemotron-1.1-7B
+base_model:quantized:nvidia/AceReason-Nemotron-1.1-7B
+license:other
+endpoints_compatible
+region:us
+conversational

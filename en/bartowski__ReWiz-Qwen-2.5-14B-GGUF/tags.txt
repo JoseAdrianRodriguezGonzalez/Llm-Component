@@ -1,0 +1,17 @@
+transformers
+gguf
+text-generation-inference
+unsloth
+qwen2
+trl
+sft
+theprint
+rewiz
+text-generation
+en
+dataset:theprint/ReWiz
+base_model:theprint/ReWiz-Qwen-2.5-14B
+base_model:quantized:theprint/ReWiz-Qwen-2.5-14B
+license:apache-2.0
+endpoints_compatible
+region:us

@@ -1,0 +1,8 @@
+gguf
+text-generation
+en
+base_model:POLARIS-Project/Polaris-4B-Preview
+base_model:quantized:POLARIS-Project/Polaris-4B-Preview
+license:apache-2.0
+endpoints_compatible
+region:us

@@ -1,0 +1,11 @@
+transformers
+gguf
+text-generation
+en
+arxiv:2506.16655
+base_model:Qwen/Qwen2.5-1.5B-Instruct
+base_model:quantized:Qwen/Qwen2.5-1.5B-Instruct
+license:other
+endpoints_compatible
+region:us
+conversational

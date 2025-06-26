@@ -1,0 +1,17 @@
+transformers
+gguf
+code
+codeqwen
+chat
+qwen
+qwen-coder
+text-generation
+en
+arxiv:2409.12186
+arxiv:2407.10671
+base_model:Qwen/Qwen2.5-Coder-32B-Instruct
+base_model:quantized:Qwen/Qwen2.5-Coder-32B-Instruct
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

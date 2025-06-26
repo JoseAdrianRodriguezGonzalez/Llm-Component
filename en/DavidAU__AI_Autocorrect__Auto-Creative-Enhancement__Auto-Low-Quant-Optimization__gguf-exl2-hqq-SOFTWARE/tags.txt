@@ -1,0 +1,56 @@
+AI hybrid software
+AI AutoCorrect Software
+AI AutoCreative Enhancement
+AI Auto Low Quant Enhancement and Optimize
+AUTO Reconsider Systems
+Live Streaming Auto Enhancement in Real Time
+ALL GGUF enhanced
+ALL EXL2 enhanced
+ALL HQQ enhanced
+ALL Full source enhanced
+ALL GPTQ enhanced
+ALL AWQ enhanced
+creative
+creative writing
+fiction writing
+plot generation
+sub-plot generation
+story generation
+scene continue
+storytelling
+fiction story
+science fiction
+romance
+all genres
+story
+writing
+vivid writing
+fiction
+sillytavern enhancement
+horror
+llama 2
+llama 3
+llama 3.1
+llama 3.2
+llama 3.3
+Qwen
+command-r
+mistral
+mistral large
+deepseek
+gemma
+phi
+llama
+llama-3
+gemma2
+gemma3
+llama-2
+llama-3.1
+llama-3.2
+moe
+mixture of experts
+mixtral
+text-generation
+en
+license:apache-2.0
+region:us

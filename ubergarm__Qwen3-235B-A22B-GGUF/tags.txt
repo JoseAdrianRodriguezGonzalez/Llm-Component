@@ -1,0 +1,11 @@
+gguf
+imatrix
+qwen3_moe
+conversational
+ik_llama.cpp
+text-generation
+base_model:Qwen/Qwen3-235B-A22B
+base_model:quantized:Qwen/Qwen3-235B-A22B
+license:mit
+endpoints_compatible
+region:us

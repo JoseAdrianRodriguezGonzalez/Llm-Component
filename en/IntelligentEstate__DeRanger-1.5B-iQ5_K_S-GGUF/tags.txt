@@ -1,0 +1,16 @@
+gguf
+nvidia
+AceMath
+math
+CoT
+pytorch
+llama-cpp
+text-generation
+en
+base_model:nvidia/AceMath-1.5B-Instruct
+base_model:quantized:nvidia/AceMath-1.5B-Instruct
+license:cc-by-nc-4.0
+endpoints_compatible
+region:us
+imatrix
+conversational

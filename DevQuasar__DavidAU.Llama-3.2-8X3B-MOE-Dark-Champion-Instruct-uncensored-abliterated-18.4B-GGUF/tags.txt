@@ -1,0 +1,7 @@
+gguf
+text-generation
+base_model:DavidAU/Llama-3.2-8X3B-MOE-Dark-Champion-Instruct-uncensored-abliterated-18.4B
+base_model:quantized:DavidAU/Llama-3.2-8X3B-MOE-Dark-Champion-Instruct-uncensored-abliterated-18.4B
+endpoints_compatible
+region:us
+conversational

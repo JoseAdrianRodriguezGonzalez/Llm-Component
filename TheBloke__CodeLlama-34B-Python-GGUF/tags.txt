@@ -1,0 +1,9 @@
+transformers
+gguf
+llama
+llama-2
+text-generation
+code
+arxiv:2308.12950
+license:llama2
+region:us

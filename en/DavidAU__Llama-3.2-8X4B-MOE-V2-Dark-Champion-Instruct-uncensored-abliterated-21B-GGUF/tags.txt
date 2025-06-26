@@ -1,0 +1,40 @@
+gguf
+mixture of experts
+moe
+8x4B
+8 experts
+128k context
+Llama 3.2 MOE
+creative
+creative writing
+fiction writing
+plot generation
+sub-plot generation
+story generation
+scene continue
+storytelling
+fiction story
+science fiction
+romance
+all genres
+story
+writing
+vivid prosing
+vivid writing
+fiction
+roleplaying
+float32
+swearing
+rp
+horror
+mergekit
+llama-3
+llama-3.2
+text-generation
+en
+base_model:DavidAU/L3.2-8X4B-MOE-V2-Dark-Champion-Inst-21B-uncen-ablit
+base_model:quantized:DavidAU/L3.2-8X4B-MOE-V2-Dark-Champion-Inst-21B-uncen-ablit
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

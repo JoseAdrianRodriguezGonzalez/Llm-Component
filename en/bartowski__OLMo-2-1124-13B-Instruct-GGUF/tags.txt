@@ -1,0 +1,10 @@
+gguf
+text-generation
+en
+dataset:allenai/RLVR-GSM-MATH-IF-Mixed-Constraints
+base_model:allenai/OLMo-2-1124-13B-Instruct
+base_model:quantized:allenai/OLMo-2-1124-13B-Instruct
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

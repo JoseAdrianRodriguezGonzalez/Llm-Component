@@ -1,0 +1,9 @@
+gguf
+nlp
+code
+text-generation
+en
+license:mit
+endpoints_compatible
+region:us
+conversational

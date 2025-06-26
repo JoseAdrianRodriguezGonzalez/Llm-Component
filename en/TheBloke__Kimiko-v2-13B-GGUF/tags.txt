@@ -1,0 +1,9 @@
+transformers
+gguf
+llama
+text-generation
+en
+base_model:Chat-Error/Kimiko-v2-13B
+base_model:quantized:Chat-Error/Kimiko-v2-13B
+license:creativeml-openrail-m
+region:us

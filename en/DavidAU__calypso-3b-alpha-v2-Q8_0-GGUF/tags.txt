@@ -1,0 +1,9 @@
+gguf
+llama-cpp
+gguf-my-repo
+text-generation
+en
+dataset:Xilabs/PIPPA-alpaca
+license:cc-by-nc-sa-4.0
+endpoints_compatible
+region:us

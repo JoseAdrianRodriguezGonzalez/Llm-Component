@@ -1,0 +1,14 @@
+transformers
+gguf
+llama-cpp
+gguf-my-repo
+uncensored
+llama
+llama-3
+unsloth
+text-generation
+en
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

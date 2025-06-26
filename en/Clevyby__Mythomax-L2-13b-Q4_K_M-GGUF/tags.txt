@@ -1,0 +1,11 @@
+transformers
+gguf
+llama
+text-generation
+en
+base_model:Gryphe/MythoMax-L2-13b
+base_model:quantized:Gryphe/MythoMax-L2-13b
+license:other
+autotrain_compatible
+endpoints_compatible
+region:us

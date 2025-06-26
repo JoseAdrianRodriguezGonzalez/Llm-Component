@@ -1,0 +1,9 @@
+gguf
+text-generation
+arxiv:2309.00071
+base_model:Qwen/Qwen3-32B
+base_model:quantized:Qwen/Qwen3-32B
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

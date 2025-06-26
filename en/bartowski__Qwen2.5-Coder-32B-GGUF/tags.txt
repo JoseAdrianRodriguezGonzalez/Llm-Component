@@ -1,0 +1,14 @@
+gguf
+code
+qwen
+qwen-coder
+codeqwen
+text-generation
+en
+base_model:Qwen/Qwen2.5-Coder-32B
+base_model:quantized:Qwen/Qwen2.5-Coder-32B
+license:apache-2.0
+endpoints_compatible
+region:us
+imatrix
+conversational

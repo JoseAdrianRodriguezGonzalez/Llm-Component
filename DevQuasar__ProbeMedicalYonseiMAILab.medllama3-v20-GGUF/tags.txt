@@ -1,0 +1,7 @@
+gguf
+text-generation
+base_model:ProbeMedicalYonseiMAILab/medllama3-v20
+base_model:quantized:ProbeMedicalYonseiMAILab/medllama3-v20
+endpoints_compatible
+region:us
+conversational

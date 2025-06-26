@@ -1,0 +1,15 @@
+transformers
+gguf
+lg-ai
+exaone
+exaone-deep
+text-generation
+en
+ko
+arxiv:2503.12524
+base_model:LGAI-EXAONE/EXAONE-Deep-7.8B
+base_model:quantized:LGAI-EXAONE/EXAONE-Deep-7.8B
+license:other
+endpoints_compatible
+region:us
+conversational

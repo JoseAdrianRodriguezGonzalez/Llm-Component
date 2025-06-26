@@ -1,0 +1,12 @@
+gguf
+quantized
+GGUF
+imatrix
+quantization
+imat
+static
+text-generation
+base_model:deepseek-ai/DeepSeek-V2-Lite
+base_model:quantized:deepseek-ai/DeepSeek-V2-Lite
+region:us
+conversational

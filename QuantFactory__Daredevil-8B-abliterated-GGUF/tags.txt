@@ -1,0 +1,8 @@
+transformers
+gguf
+text-generation
+base_model:mlabonne/Daredevil-8B-abliterated
+base_model:quantized:mlabonne/Daredevil-8B-abliterated
+license:other
+endpoints_compatible
+region:us

@@ -1,0 +1,9 @@
+transformers
+gguf
+text-generation
+base_model:Steelskull/L3.3-Electra-R1-70b
+base_model:quantized:Steelskull/L3.3-Electra-R1-70b
+endpoints_compatible
+region:us
+imatrix
+conversational

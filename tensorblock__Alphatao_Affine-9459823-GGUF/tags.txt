@@ -1,0 +1,11 @@
+transformers
+gguf
+TensorBlock
+GGUF
+text-generation
+base_model:Alphatao/Affine-9459823
+base_model:quantized:Alphatao/Affine-9459823
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

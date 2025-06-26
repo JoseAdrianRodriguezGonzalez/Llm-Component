@@ -1,0 +1,11 @@
+gguf
+roleplay
+rp
+character
+text-generation
+zh
+en
+license:mit
+endpoints_compatible
+region:us
+conversational

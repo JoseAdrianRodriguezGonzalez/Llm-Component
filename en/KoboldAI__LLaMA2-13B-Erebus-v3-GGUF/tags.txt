@@ -1,0 +1,10 @@
+gguf
+pytorch
+llama
+llama-2
+finetuned
+not-for-all-audiences
+text-generation
+en
+license:llama2
+region:us

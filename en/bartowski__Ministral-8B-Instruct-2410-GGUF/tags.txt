@@ -1,0 +1,17 @@
+gguf
+text-generation
+en
+fr
+de
+es
+it
+pt
+zh
+ja
+ru
+ko
+base_model:mistralai/Ministral-8B-Instruct-2410
+base_model:quantized:mistralai/Ministral-8B-Instruct-2410
+license:other
+region:us
+conversational

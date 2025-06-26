@@ -1,0 +1,8 @@
+transformers
+gguf
+llama
+text-generation
+en
+dataset:msaad02/formatted-ss-cleaned-brockport-qa
+endpoints_compatible
+region:us

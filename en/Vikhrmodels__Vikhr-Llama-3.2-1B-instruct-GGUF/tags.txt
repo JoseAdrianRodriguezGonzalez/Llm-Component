@@ -1,0 +1,14 @@
+llamacpp
+gguf
+instruct
+text-generation
+ru
+en
+dataset:Vikhrmodels/GrandMaster-PRO-MAX
+arxiv:2405.13929
+base_model:Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct
+base_model:quantized:Vikhrmodels/Vikhr-Llama-3.2-1B-Instruct
+license:llama3.2
+endpoints_compatible
+region:us
+conversational

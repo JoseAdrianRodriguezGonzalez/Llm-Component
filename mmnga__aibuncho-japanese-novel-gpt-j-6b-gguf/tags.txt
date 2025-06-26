@@ -1,0 +1,7 @@
+gguf
+gpt-j
+text-generation
+ja
+license:openrail
+endpoints_compatible
+region:us

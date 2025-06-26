@@ -1,0 +1,17 @@
+transformers
+gguf
+qwen2
+text-generation
+code
+codeqwen
+chat
+qwen
+qwen-coder
+en
+base_model:Qwen/Qwen2.5-Coder-3B-Instruct
+base_model:quantized:Qwen/Qwen2.5-Coder-3B-Instruct
+license:other
+autotrain_compatible
+endpoints_compatible
+region:us
+conversational

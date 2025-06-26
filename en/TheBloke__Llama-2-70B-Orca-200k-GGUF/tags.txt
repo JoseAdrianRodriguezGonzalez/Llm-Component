@@ -1,0 +1,12 @@
+transformers
+gguf
+llama
+llama-2
+instruct
+instruction
+text-generation
+en
+base_model:ddobokki/Llama-2-70b-orca-200k
+base_model:quantized:ddobokki/Llama-2-70b-orca-200k
+license:llama2
+region:us

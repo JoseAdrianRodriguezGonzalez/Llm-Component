@@ -1,0 +1,11 @@
+gguf
+chat
+text-generation
+en
+zh
+base_model:rednote-hilab/dots.llm1.inst
+base_model:quantized:rednote-hilab/dots.llm1.inst
+license:mit
+endpoints_compatible
+region:us
+conversational

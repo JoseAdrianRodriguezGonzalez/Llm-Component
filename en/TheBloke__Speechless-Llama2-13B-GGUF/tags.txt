@@ -1,0 +1,17 @@
+transformers
+gguf
+llama
+facebook
+meta
+pytorch
+llama-2
+text-generation
+en
+dataset:Open-Orca/OpenOrca
+dataset:garage-bAInd/Open-Platypus
+dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+arxiv:2307.09288
+base_model:uukuguy/speechless-llama2-13b
+base_model:quantized:uukuguy/speechless-llama2-13b
+license:llama2
+region:us

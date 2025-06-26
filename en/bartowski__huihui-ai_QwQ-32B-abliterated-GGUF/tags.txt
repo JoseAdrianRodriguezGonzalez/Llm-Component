@@ -1,0 +1,13 @@
+gguf
+chat
+abliterated
+uncensored
+text-generation
+en
+base_model:huihui-ai/QwQ-32B-abliterated
+base_model:quantized:huihui-ai/QwQ-32B-abliterated
+license:apache-2.0
+endpoints_compatible
+region:us
+imatrix
+conversational

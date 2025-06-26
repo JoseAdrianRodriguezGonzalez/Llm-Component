@@ -1,0 +1,14 @@
+transformers
+gguf
+llama
+facebook
+meta
+pytorch
+llama-2
+text-generation
+en
+arxiv:2307.09288
+base_model:meta-llama/Llama-2-13b-chat-hf
+base_model:quantized:meta-llama/Llama-2-13b-chat-hf
+license:llama2
+region:us

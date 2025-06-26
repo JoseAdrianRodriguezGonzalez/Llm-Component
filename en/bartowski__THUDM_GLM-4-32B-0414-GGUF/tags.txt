@@ -1,0 +1,11 @@
+gguf
+text-generation
+zh
+en
+base_model:THUDM/GLM-4-32B-0414
+base_model:quantized:THUDM/GLM-4-32B-0414
+license:mit
+endpoints_compatible
+region:us
+imatrix
+conversational

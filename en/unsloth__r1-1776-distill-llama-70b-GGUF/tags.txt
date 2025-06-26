@@ -1,0 +1,16 @@
+transformers
+gguf
+llama
+text-generation
+deepseek
+deepseek_v3
+unsloth
+en
+arxiv:2501.12948
+base_model:perplexity-ai/r1-1776-distill-llama-70b
+base_model:quantized:perplexity-ai/r1-1776-distill-llama-70b
+license:mit
+autotrain_compatible
+endpoints_compatible
+region:us
+conversational

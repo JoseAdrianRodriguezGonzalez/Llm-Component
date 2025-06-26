@@ -1,0 +1,9 @@
+gguf
+text-generation
+base_model:TheDrummer/Cydonia-24B-v2.1
+base_model:quantized:TheDrummer/Cydonia-24B-v2.1
+license:other
+endpoints_compatible
+region:us
+imatrix
+conversational

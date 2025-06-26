@@ -1,0 +1,12 @@
+gguf
+pretrained
+llama-cpp
+gguf-my-repo
+text-generation
+da
+dataset:DDSC/partial-danish-gigaword-no-twitter
+base_model:danish-foundation-models/munin-7b-alpha
+base_model:quantized:danish-foundation-models/munin-7b-alpha
+license:apache-2.0
+endpoints_compatible
+region:us

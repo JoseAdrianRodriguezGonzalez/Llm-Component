@@ -1,0 +1,14 @@
+transformers
+gguf
+text-generation
+ja
+dataset:tokyotech-llm/lmsys-chat-1m-synth
+dataset:tokyotech-llm/swallow-magpie-ultra-v0.1
+dataset:tokyotech-llm/swallow-swallow-gemma-magpie-v0.1
+arxiv:2501.16937
+base_model:Qwen/Qwen2.5-1.5B-Instruct
+base_model:quantized:Qwen/Qwen2.5-1.5B-Instruct
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

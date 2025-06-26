@@ -1,0 +1,11 @@
+gguf
+text-generation
+en
+dataset:Gryphe/Opus-WritingPrompts
+dataset:Sao10K/Claude-3-Opus-Instruct-15K
+dataset:Sao10K/Short-Storygen-v2
+dataset:Sao10K/c2-Logs-Filtered
+license:cc-by-nc-4.0
+endpoints_compatible
+region:us
+conversational

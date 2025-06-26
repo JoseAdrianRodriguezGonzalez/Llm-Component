@@ -1,0 +1,11 @@
+gguf
+chat
+text-generation
+en
+arxiv:2407.10671
+base_model:Qwen/Qwen2.5-1.5B-Instruct
+base_model:quantized:Qwen/Qwen2.5-1.5B-Instruct
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

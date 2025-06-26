@@ -1,0 +1,14 @@
+transformers
+gguf
+chat
+abliterated
+uncensored
+llama-cpp
+gguf-my-repo
+text-generation
+base_model:huihui-ai/Qwen3-32B-abliterated
+base_model:quantized:huihui-ai/Qwen3-32B-abliterated
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

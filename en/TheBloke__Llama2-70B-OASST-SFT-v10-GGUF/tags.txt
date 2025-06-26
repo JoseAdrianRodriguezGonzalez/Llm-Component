@@ -1,0 +1,14 @@
+transformers
+gguf
+llama
+sft
+text-generation
+en
+dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+dataset:OpenAssistant/oasst1
+dataset:shahules786/orca-best
+dataset:argilla/databricks-dolly-15k-curated-multilingual
+base_model:OpenAssistant/llama2-70b-oasst-sft-v10
+base_model:quantized:OpenAssistant/llama2-70b-oasst-sft-v10
+license:llama2
+region:us

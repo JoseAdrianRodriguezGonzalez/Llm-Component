@@ -1,0 +1,56 @@
+gguf
+NEO Imatrix
+MAX Quants
+GGUF
+uncensored
+reasoning
+thinking
+r1
+cot
+reka-flash
+deepseek
+Qwen2.5
+Hermes
+DeepHermes
+DeepSeek
+DeepSeek-R1-Distill
+128k context
+instruct
+all use cases
+maxed quants
+Neo Imatrix
+finetune
+chatml
+gpt4
+synthetic data
+distillation
+function calling
+roleplaying
+chat
+Uncensored
+creative
+general usage
+problem solving
+brainstorming
+solve riddles
+fiction writing
+plot generation
+sub-plot generation
+story generation
+scene continue
+storytelling
+fiction story
+story
+writing
+fiction
+swearing
+horror
+text-generation
+en
+base_model:RekaAI/reka-flash-3
+base_model:quantized:RekaAI/reka-flash-3
+license:apache-2.0
+endpoints_compatible
+region:us
+imatrix
+conversational

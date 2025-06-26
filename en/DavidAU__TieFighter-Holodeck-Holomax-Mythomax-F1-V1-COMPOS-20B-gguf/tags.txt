@@ -1,0 +1,20 @@
+gguf
+not-for-all-audiences
+art
+creative
+roleplay
+story
+fiction
+scene writing
+composite model
+merge-kit
+unpredictable
+llama
+llama-2
+llama2
+text-generation
+en
+license:apache-2.0
+endpoints_compatible
+region:us
+imatrix

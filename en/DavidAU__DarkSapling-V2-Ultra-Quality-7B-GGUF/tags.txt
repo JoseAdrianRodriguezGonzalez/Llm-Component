@@ -1,0 +1,13 @@
+gguf
+creative
+story
+roleplay
+rp
+32 bit upscale
+remastered
+writing
+text-generation
+en
+license:apache-2.0
+endpoints_compatible
+region:us

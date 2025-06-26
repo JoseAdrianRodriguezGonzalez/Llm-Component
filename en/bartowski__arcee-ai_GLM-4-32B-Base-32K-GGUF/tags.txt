@@ -1,0 +1,10 @@
+gguf
+text-generation
+zh
+en
+base_model:arcee-ai/GLM-4-32B-Base-32K
+base_model:quantized:arcee-ai/GLM-4-32B-Base-32K
+license:mit
+endpoints_compatible
+region:us
+imatrix

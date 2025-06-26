@@ -1,0 +1,45 @@
+gguf
+creative
+creative writing
+fiction writing
+plot generation
+sub-plot generation
+story generation
+scene continue
+storytelling
+fiction story
+science fiction
+romance
+all genres
+story
+writing
+vivid prose
+vivid writing
+moe
+mixture of experts
+64 experts
+8 active experts
+fiction
+roleplaying
+bfloat16
+rp
+qwen3
+horror
+finetune
+thinking
+reasoning
+qwen3_moe
+not-for-all-audiences
+uncensored
+abliterated
+text-generation
+en
+fr
+zh
+de
+base_model:huihui-ai/Qwen3-16B-A3B-abliterated
+base_model:quantized:huihui-ai/Qwen3-16B-A3B-abliterated
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational

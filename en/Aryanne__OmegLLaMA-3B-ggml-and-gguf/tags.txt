@@ -1,0 +1,7 @@
+gguf
+text-generation
+en
+dataset:anon8231489123/Omegle_logs_dataset
+license:apache-2.0
+endpoints_compatible
+region:us

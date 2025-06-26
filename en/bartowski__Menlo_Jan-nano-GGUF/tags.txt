@@ -1,0 +1,8 @@
+gguf
+text-generation
+base_model:Menlo/Jan-nano
+base_model:quantized:Menlo/Jan-nano
+license:apache-2.0
+endpoints_compatible
+region:us
+conversational
