@@ -1,6 +1,0 @@
-gguf
-text-generation
-pt
-arxiv:2308.11878
-license:apache-2.0
-region:us

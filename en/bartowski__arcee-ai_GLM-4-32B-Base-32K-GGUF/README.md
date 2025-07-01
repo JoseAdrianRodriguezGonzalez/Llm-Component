@@ -81,7 +81,8 @@ huggingface-cli download bartowski/arcee-ai_GLM-4-32B-Base-32K-GGUF --include "a
 If the model is bigger than 50GB, it will have been split into multiple files. In order to download them all to a local folder, run:
 
 ```
-huggingface-cli download bartowski/arcee-ai_GLM-4-32B-Base-32K-GGUF --include "arcee-ai_GLM-4-32B-Base-32K-Q8_0/*" --local-dir ./
+huggingface-cli download bartowski/arcee-ai_GLM-4-32B-Base-32K-GGUF --include "arcee-ai_GLM-4-32B-Base-32K-Q8_0/*" --local-dir ./men\
+
 ```
 
 You can either specify a new local-dir (arcee-ai_GLM-4-32B-Base-32K-Q8_0) or download them all in place (./)
