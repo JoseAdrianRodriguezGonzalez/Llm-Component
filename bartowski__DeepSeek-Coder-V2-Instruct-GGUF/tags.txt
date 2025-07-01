@@ -1,9 +1,0 @@
-gguf
-text-generation
-base_model:deepseek-ai/DeepSeek-Coder-V2-Instruct
-base_model:quantized:deepseek-ai/DeepSeek-Coder-V2-Instruct
-license:other
-endpoints_compatible
-region:us
-imatrix
-conversational
