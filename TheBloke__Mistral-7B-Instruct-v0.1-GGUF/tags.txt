@@ -1,9 +1,0 @@
-transformers
-gguf
-mistral
-finetuned
-text-generation
-base_model:mistralai/Mistral-7B-Instruct-v0.1
-base_model:quantized:mistralai/Mistral-7B-Instruct-v0.1
-license:apache-2.0
-region:us

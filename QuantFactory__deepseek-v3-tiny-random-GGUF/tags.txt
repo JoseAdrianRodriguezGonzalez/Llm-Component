@@ -1,5 +1,0 @@
-transformers
-gguf
-text-generation
-endpoints_compatible
-region:us

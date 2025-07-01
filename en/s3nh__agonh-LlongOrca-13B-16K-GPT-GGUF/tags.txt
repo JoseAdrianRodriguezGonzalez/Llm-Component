@@ -1,7 +1,0 @@
-transformers
-text-generation
-zh
-en
-license:openrail
-endpoints_compatible
-region:us

@@ -1,9 +1,0 @@
-gguf
-llama-cpp
-text-generation
-base_model:scb10x/typhoon2.1-gemma3-4b
-base_model:quantized:scb10x/typhoon2.1-gemma3-4b
-license:gemma
-endpoints_compatible
-region:us
-conversational

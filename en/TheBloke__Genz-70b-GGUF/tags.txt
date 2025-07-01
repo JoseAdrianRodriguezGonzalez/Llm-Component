@@ -1,9 +1,0 @@
-transformers
-gguf
-llama
-text-generation
-en
-base_model:budecosystem/genz-70b
-base_model:quantized:budecosystem/genz-70b
-license:llama2
-region:us

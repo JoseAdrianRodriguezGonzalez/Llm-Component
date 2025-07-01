@@ -1,9 +1,0 @@
-gguf
-text-generation
-arxiv:2402.03300
-base_model:deepseek-ai/deepseek-math-7b-instruct
-base_model:quantized:deepseek-ai/deepseek-math-7b-instruct
-license:other
-endpoints_compatible
-region:us
-conversational
