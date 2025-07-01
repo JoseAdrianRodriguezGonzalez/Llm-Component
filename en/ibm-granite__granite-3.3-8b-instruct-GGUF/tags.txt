@@ -1,0 +1,10 @@
+transformers
+gguf
+language
+granite-3.3
+text-generation
+base_model:ibm-granite/granite-3.3-8b-instruct
+base_model:quantized:ibm-granite/granite-3.3-8b-instruct
+license:apache-2.0
+region:us
+conversational

@@ -1,8 +1,0 @@
-gguf
-finetuned
-text-generation
-base_model:mistralai/Mistral-7B-Instruct-v0.2
-base_model:quantized:mistralai/Mistral-7B-Instruct-v0.2
-license:apache-2.0
-region:us
-conversational

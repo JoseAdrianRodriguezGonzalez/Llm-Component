@@ -1,4 +1,0 @@
-text-generation
-base_model:Delta-Vector/Austral-70B-Preview
-base_model:finetune:Delta-Vector/Austral-70B-Preview
-region:us
