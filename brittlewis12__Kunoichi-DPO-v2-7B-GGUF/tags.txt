@@ -1,7 +1,0 @@
-gguf
-text-generation
-en
-base_model:SanjiWatsuki/Kunoichi-DPO-v2-7B
-base_model:quantized:SanjiWatsuki/Kunoichi-DPO-v2-7B
-license:cc-by-nc-4.0
-region:us

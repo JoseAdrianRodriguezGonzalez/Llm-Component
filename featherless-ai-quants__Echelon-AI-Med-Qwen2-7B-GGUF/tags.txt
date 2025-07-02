@@ -1,7 +1,0 @@
-gguf
-text-generation
-base_model:Echelon-AI/Med-Qwen2-7B
-base_model:quantized:Echelon-AI/Med-Qwen2-7B
-endpoints_compatible
-region:us
-conversational
