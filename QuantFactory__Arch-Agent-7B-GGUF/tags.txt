@@ -1,9 +1,0 @@
-transformers
-gguf
-text-generation
-en
-base_model:Qwen/Qwen2.5-Coder-7B-Instruct
-base_model:quantized:Qwen/Qwen2.5-Coder-7B-Instruct
-license:other
-endpoints_compatible
-region:us

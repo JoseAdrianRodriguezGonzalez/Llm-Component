@@ -1,0 +1,12 @@
+gguf
+facebook
+meta
+pytorch
+llama
+llama-3
+text-generation
+en
+license:llama3
+endpoints_compatible
+region:us
+conversational

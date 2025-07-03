@@ -1,0 +1,17 @@
+transformers
+gguf
+llama
+text-generation
+deepseek
+unsloth
+llama-3
+meta
+en
+arxiv:2501.12948
+base_model:deepseek-ai/DeepSeek-R1-Distill-Llama-8B
+base_model:quantized:deepseek-ai/DeepSeek-R1-Distill-Llama-8B
+license:llama3.1
+autotrain_compatible
+endpoints_compatible
+region:us
+conversational

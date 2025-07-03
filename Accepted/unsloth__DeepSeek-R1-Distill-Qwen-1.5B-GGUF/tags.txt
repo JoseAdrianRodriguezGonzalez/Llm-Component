@@ -1,0 +1,16 @@
+transformers
+gguf
+qwen2
+text-generation
+deepseek
+qwen
+unsloth
+en
+arxiv:2501.12948
+base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+base_model:quantized:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+license:apache-2.0
+autotrain_compatible
+endpoints_compatible
+region:us
+conversational

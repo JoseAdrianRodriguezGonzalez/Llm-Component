@@ -1,9 +1,0 @@
-gguf
-chat
-text-generation
-base_model:Qwen/Qwen3-8B
-base_model:quantized:Qwen/Qwen3-8B
-endpoints_compatible
-region:us
-imatrix
-conversational

@@ -1,8 +1,0 @@
-gguf
-text-generation
-en
-arxiv:2407.10671
-license:apache-2.0
-endpoints_compatible
-region:us
-conversational

@@ -1,9 +1,0 @@
-transformers
-gguf
-text-generation
-base_model:Qwen/Qwen3-0.6B-Base
-base_model:quantized:Qwen/Qwen3-0.6B-Base
-license:apache-2.0
-endpoints_compatible
-region:us
-conversational

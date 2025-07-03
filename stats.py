@@ -51,5 +51,6 @@ def moveLang(model_tags):
             suma += 1
     print(f"{sum}/{len(model_tags)}")
 if __name__=="__main__":
-    for folders in os.listdir():
+    for folders in os.listdir('.\Accepted'):
         print(folders)
+    print(len(os.listdir('.\Accepted')))
