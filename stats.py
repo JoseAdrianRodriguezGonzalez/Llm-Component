@@ -51,6 +51,9 @@ def moveLang(model_tags):
             suma += 1
     print(f"{sum}/{len(model_tags)}")
 if __name__=="__main__":
-    for folders in os.listdir('.\Accepted'):
-        print(folders)
-    print(len(os.listdir('.\Accepted')))
+    with open("models_accepted.txt","w") as file:
+        for folders in os.listdir('Accepted/Mistral'):
+            file.write(f"{folders}\n")
+        file.write(f"${len(os.listdir('Accepted'))}")
+    
+    

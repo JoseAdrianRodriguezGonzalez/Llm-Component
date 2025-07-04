@@ -1,9 +1,0 @@
-gguf
-text-generation
-en
-base_model:SicariusSicariiStuff/Impish_Mind_8B
-base_model:quantized:SicariusSicariiStuff/Impish_Mind_8B
-license:apache-2.0
-endpoints_compatible
-region:us
-conversational

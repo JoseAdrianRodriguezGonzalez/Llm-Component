@@ -1,0 +1,7 @@
+featherless-ai-quants__IntervitensInc-Mistral-Nemo-Base-2407-chatml-GGUF
+MaziyarPanahi__Mistral-7B-Instruct-v0.3-GGUF
+MaziyarPanahi__Mistral-7B-Instruct-Aya-101-GGUF
+QuantFactory__Mistral-7B-v0.3-GGUF
+QuantFactory__Mistral-7B-OpenOrca-GGUF
+MaziyarPanahi__Mistral-Nemo-Instruct-2407-GGUF
+$22
