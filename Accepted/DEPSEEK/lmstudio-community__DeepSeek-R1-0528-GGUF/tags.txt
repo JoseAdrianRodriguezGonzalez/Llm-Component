@@ -1,8 +1,0 @@
-gguf
-text-generation
-base_model:deepseek-ai/DeepSeek-R1-0528
-base_model:quantized:deepseek-ai/DeepSeek-R1-0528
-license:mit
-endpoints_compatible
-region:us
-conversational

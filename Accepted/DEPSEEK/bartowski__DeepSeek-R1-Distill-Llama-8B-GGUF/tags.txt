@@ -1,8 +1,0 @@
-gguf
-text-generation
-base_model:deepseek-ai/DeepSeek-R1-Distill-Llama-8B
-base_model:quantized:deepseek-ai/DeepSeek-R1-Distill-Llama-8B
-endpoints_compatible
-region:us
-imatrix
-conversational
