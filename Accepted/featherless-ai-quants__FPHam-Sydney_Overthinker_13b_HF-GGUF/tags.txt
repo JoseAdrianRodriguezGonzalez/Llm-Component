@@ -1,6 +1,0 @@
-gguf
-text-generation
-base_model:FPHam/Sydney_Overthinker_13b_HF
-base_model:quantized:FPHam/Sydney_Overthinker_13b_HF
-endpoints_compatible
-region:us

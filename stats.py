@@ -52,7 +52,7 @@ def moveLang(model_tags):
     print(f"{sum}/{len(model_tags)}")
 if __name__=="__main__":
     with open("models_accepted.txt","w") as file:
-        for folders in os.listdir('Accepted/LLAMA'):
+        for folders in os.listdir('Accepted'):
             file.write(f"{folders}\n")
         file.write(f"${len(os.listdir('Accepted'))}")
     

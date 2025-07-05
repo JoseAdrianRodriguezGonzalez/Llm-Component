@@ -1,9 +1,0 @@
-transformers
-gguf
-mergekit
-merge
-text-generation
-base_model:MarinaraSpaghetti/NemoMix-Unleashed-12B
-base_model:quantized:MarinaraSpaghetti/NemoMix-Unleashed-12B
-endpoints_compatible
-region:us
