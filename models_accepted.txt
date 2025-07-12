@@ -20,4 +20,3 @@ QuantFactory__Mistral-7B-OpenOrca-GGUF
 Reiterate3680__mini-magnum-12b-v1.1-GGUF
 unsloth__Qwen3-4B-GGUF
 unsloth__Qwen3-8B-GGUF
-$23
