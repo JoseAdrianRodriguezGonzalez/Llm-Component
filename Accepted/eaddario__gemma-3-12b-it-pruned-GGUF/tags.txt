@@ -1,0 +1,15 @@
+gguf
+quant
+pruned
+experimental
+text-generation
+en
+dataset:eaddario/imatrix-calibration
+arxiv:2406.17415
+arxiv:2403.03853
+base_model:google/gemma-3-12b-it
+base_model:quantized:google/gemma-3-12b-it
+license:gemma
+endpoints_compatible
+region:us
+conversational
