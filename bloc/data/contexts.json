@@ -1,0 +1,58 @@
+{
+    "elements": [
+        {
+            "name": "air",
+            "title": "Air card (Thought and Communication)", 
+            "description": "The element of Air in Tarot is deeply connected to mental functions, communication, and intelligence. This element is associated with the life principle that animates the mind, essential for the formation and articulation of thought. In Tarot symbolism, Air represents the vital breath that links humans to universal forces, facilitating the transmission of ideas and social interaction. In esoteric teachings, each breath is seen as an opportunity to connect with higher wisdom. This exchange goes beyond the intake of oxygen, involving the absorption and processing of spiritual influences. In this sense, Air acts as the vehicle through which divine ideas materialize in human consciousness, promoting mental clarity and the ability to discern. The Air card symbolizes the need for clear communication both within oneself and with the external world. It suggests an exploration of how thoughts and words shape personal reality, and how clarity in this area can lead to a deeper understanding of oneself and one's surroundings. The card invites the seeker to reflect on the quality of their internal dialogue and its impact on their perception of reality."
+        },
+        {
+            "name": "fire",
+            "title": "Fire card (Drive and Will)",
+            "description": "Fire is associated with energy, passion, and willpower. This element represents the vital force that drives action and change. In Tarot, Fire symbolizes the divine spark that ignites motivation and the desire to manifest one's will in the physical world. Fire is a manifestation of divine power residing within every human being. This power is the engine behind creativity, inspiration, and determination. The energy of Fire is both destructive and constructive, capable of burning away what is old and obsolete to make room for new creations. In this sense, it represents purification through which individuals can reinvent themselves and their lives. The Fire card alludes to the need to recognize and properly channel inner strength. It invites the seeker to consider how their drive and willpower manifest in their actions and decisions. Additionally, it suggests reflection on the authentic desires that motivate these actions and how to align them with a higher purpose. This card challenges the individual to use their inner power consciously and deliberately, fostering personal growth and transformation."
+        },
+        {
+            "name": "water",
+            "title": "Water card (Emotions and Feelings)",
+            "description": "Water symbolizes the flow of emotions and the depths of the subconscious. This element is linked with intuition, feelings, and empathy. In Tarot, Water acts as a mirror, reflecting the hidden depths of the psyche and revealing internal secrets and forgotten truths. Water is essential for spiritual development as it allows individuals to connect with their most intimate feelings and the intuitive wisdom they offer. Emotions, though sometimes turbulent, are a vital source of information about one's true self and needs. Moreover, Water facilitates connection with others through empathy, enabling a deeper understanding of shared experiences and emotions. The Water card invites the seeker to immerse themselves in their emotional world, exploring and better understanding their own feelings. This card suggests introspection to identify dominant emotions and their impact on daily life. It also encourages evaluating how these emotions influence decision-making and interactions with others. The Water card is a call to honor emotional sensitivity as a tool for connection and self-discovery."
+        },
+        {
+            "name": "earth",
+            "title": "Earth card (Material plane and Resources)",
+            "description": "The element Earth symbolizes the physical manifestation, stability, and the tangible aspect of our existence. In the context of Tarot, Earth is related to the materialization of ideas and emotions into concrete forms, including the relationship with the body, resources, and the physical environment. Earth represents the final point in the descent of spirit into matter, where concepts become tangible reality. This element is essential for understanding how our beliefs and emotions translate into actions and physical manifestations. Earth not only represents solidity and immobility but also the capacity to sustain and nurture life, providing fertile ground for personal growth and fulfillment. In the Self-Knowledge Star Spread, the Earth card invites reflection on how we interact with the material world and how we manage our resources. It offers an opportunity to consider the alignment between our spiritual aspirations and our daily practices. This card challenges the querent to evaluate their relationship with money, health, and the environment, promoting a balanced and sustainable approach that reflects their deepest values."
+        }
+    ],
+    "unions": [
+        {
+            "name": "spark",
+            "title": "Creative Spark (Ideas and Solution)",
+            "description": "The 'Creative Spark' is related to the spiritual fire, which illuminates and transforms. This card symbolizes sudden inspiration, innovative ideas, and ingenious solutions that emerge when we are fully aligned with our inner source of wisdom and creativity. The creative spark in Tarot represents the human ability to access higher levels of consciousness and use that energy for problem-solving and artistic creation. This element is interpreted as a direct link to the cosmic mind, where solutions to our most complex challenges are waiting to be discovered. In the spread, the Creative Spark suggests a deep exploration of latent potentials. It encourages the querent to open up to new possibilities and to be willing to experiment with unconventional approaches. This card is a reminder that within everyone resides an immense creative power, capable of radically transforming their life and environment."
+        },
+        {
+            "name": "heart",
+            "title": "Heart Card (Intuition and Deep desires)",
+            "description": "The Heart Card reflects the emotional and spiritual center of our being, where our true passions and deepest desires reside. This card is intrinsically connected with the element Water, associated with the depth of emotions and intuition. In this card, the alignment between the desires of the heart and daily actions is examined. It is a call to listen more deeply to the inner voice and to trust the intuitive guidance that always seeks to direct us toward our true purpose. Emotional authenticity is a key to a fulfilling and meaningful life. In the context of the spread, the Heart Card asks the querent to pay attention to what truly moves their soul, what they are passionate about, and what they may be repressing or ignoring. It is an invitation to reevaluate priorities and make changes that resonate more authentically with their essential self."
+        },
+        {
+            "name": "beliefs",
+            "title": "Core Beliefs (Fundamental Convictions)",
+            "description": "The Core Beliefs represent the foundations upon which we build our perception of the world and of ourselves. These beliefs may be conscious or subconscious and are crucial to how we interact with reality. This element is linked to Earth, symbolizing what is practical and stable. This card challenges the querent to identify and examine those fundamental beliefs. It invites introspection on how these convictions support or limit personal growth. Exploring these beliefs can reveal deeply ingrained thought patterns that need to be transformed to facilitate a life more aligned with the individual's true desires and aspirations."
+        },
+        {
+            "name": "projections",
+            "title": "Mental Projections (Thoughts about the Future)",
+            "description": "The Mental Projections card focuses on how we visualize and anticipate our future. It is related to the element Air, which symbolizes thought and communication. This card examines the quality of our future-oriented thoughts and how they shape our expectations and actions. In the spread, this card suggests a review of the fears, hopes, and dreams that we project forward. It encourages the querent to consider how these thoughts affect their present and how they can be redirected to create a more desirable future. It is an opportunity to redefine goals and realign personal trajectory toward a more conscious and fulfilling destination."
+        }
+    ],
+    "advice": [
+        {
+            "name": "advice",
+            "title": "Advice (Spiritual guidance)",
+            "description": "The Advice cards represent the synthesis of the entire spread and offer clear spiritual guidance. These cards reflect the wisdom accumulated through the exploration of the previous elements and provide practical and spiritual recommendations for moving forward. These cards can be seen as a channel for direct communication with cosmic intelligence, offering insights and revelations essential for personal growth and evolution. In the spread, these advice cards act as a beacon, guiding the querent towards the actions and reflections necessary to align their life with their higher purpose. They are the culmination of an introspective process that seeks not only to understand but also to apply the lessons learned in a constructive and transformative way."
+        },
+        {
+            "name": "final advice",
+            "title": "Advice (Spiritual guidance)",
+            "description": "The Advice cards represent the synthesis of the entire spread and offer clear spiritual guidance. These cards reflect the wisdom accumulated through the exploration of the previous elements and provide practical and spiritual recommendations for moving forward. These cards can be seen as a channel for direct communication with cosmic intelligence, offering insights and revelations essential for personal growth and evolution. In the spread, these advice cards act as a beacon, guiding the querent towards the actions and reflections necessary to align their life with their higher purpose. They are the culmination of an introspective process that seeks not only to understand but also to apply the lessons learned in a constructive and transformative way."
+        }
+    ]
+}
