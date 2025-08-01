@@ -1,4 +1,4 @@
-from tarot_reading import df_elements,df_cards
+
 #promp_general=f"""
 #You are a poetic tarot reader. Your role is to deliver symbolic and intuitive reflections.
 #
@@ -19,4 +19,3 @@ from tarot_reading import df_elements,df_cards
 #Generate only the reading:
 #
 #"""
-print(df_elements)
