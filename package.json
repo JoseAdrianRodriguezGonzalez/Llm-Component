@@ -24,7 +24,7 @@
   "scripts": {
     "postinstall": "npm run models:pull",
     "models:pull": "node-llama-cpp pull --dir ./models \"hf:mradermacher/DeepSeek-R1-Distill-Llama-8B-GGUF:Q8_0\"",
-    "start": "vite-node ./src/index.ts",
+    "start": "vite-node ./src/main.ts",
     "start:build": "node ./dist/index.ts",
     "prebuild": "rimraf ./dist ./tsconfig.tsbuildinfo",
     "build": "tsc --build tsconfig.json --force",
