@@ -1,17 +1,29 @@
+import chalk from "chalk";
 import * as fs from "fs/promises";
 
-interface TarotCard {
+export interface TarotCard {
     card: string;
     element: string;
     description: string;
 }
 
-const rawData = await fs.readFile("./data/sample_es.json", "utf-8");
-export const data: TarotCard[] = JSON.parse(rawData);
-
+export const extractData = async(path:string): Promise<TarotCard[]|null>=>{
+    let data: TarotCard[]|null=null;
+    try{
+        const rawData = await fs.readFile(path, "utf-8");
+        data = JSON.parse(rawData);
+        console.log(chalk.green("Datos extraídos correctamente"))
+    }catch(err){
+        console.log("No se encontro dirección \n",err);
+    }
+    return data;
+}
 export const createFolder = async (name: string): Promise<void> => {
+    const basePath:string=`./output/${name}`;
     try {
-        await fs.mkdir(`./output/${name}`, { recursive: true });
+        await fs.mkdir(basePath, { recursive: true });
+        await fs.mkdir(`${basePath}/en`, { recursive: true });
+        await fs.mkdir(`${basePath}/es`, { recursive: true });
         console.log("Directory created successfully");
     } catch (err) {
         console.error("Error creating directory:", err);

@@ -1,30 +1,45 @@
-import {fileURLToPath} from "url";
-import path from "path";
 import chalk from "chalk";
-import {getLlama, LlamaChatSession, LlamaModel, resolveModelFile} from "node-llama-cpp";
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const modelsDirectory = path.join(__dirname, "..", "models");
-let model:LlamaModel;
-export const nameModel="astramix_l2_7b_Q5_K_M"
-export const initializeModel =async()=>{
-
-    const llama = await getLlama({gpu:'cuda'});
-    console.log(llama.systemInfo)
-    console.log(chalk.bgRed('Loading the file....'))
-    const modelPath = await resolveModelFile(
-        nameModel+".gguf",
-        modelsDirectory
-    );
-    
-    console.log(chalk.yellow('Loading the model...'));
-    model= await llama.loadModel({modelPath});
-    return model;
-}   
-export const createSession =async ()=>{
-    console.log(chalk.green('creating context...'));
-    const context=await model.createContext();
-    console.log(chalk.green('Model instanced correctly'));
-    return new LlamaChatSession({
-        contextSequence: context.getSequence()
-    });
+import { createSession,initializeModel,nameModel } from "./init";
+import { saveResponses, type TarotCard} from "./readfile";
+import { table } from "console";
+function buildPrompt(card: TarotCard, language: boolean): string {
+    if (language) {
+        return `You are a tarot reader. Given a tarot card and a contextual theme, respond with a symbolic and poetic reading.
+                Do not mention the card or context explicitly.
+                Do not explain your reasoning or break down meanings.
+                Avoid giving life advice.
+                Your reading should be abstract and leave room for interpretation.
+                Respond with a single paragraph under 200 words.
+                No titles, no lists, no formatting.
+                Card: ${card.card}
+                Context: ${card.element}. ${card.description}
+                Now respond with the reading only.`;
+    } else {
+        return `Eres un lector de tarot. Dada una carta del tarot y un tema contextual, responde con una lectura simbólica y poética.
+                No menciones la carta ni el contexto explícitamente.
+                No expliques tu razonamiento ni desgloses los significados.
+                Evita dar consejos de vida.
+                Tu lectura debe ser abstracta y dejar espacio para la interpretación.
+                Responde con un solo párrafo de menos de 200 palabras.
+                Sin títulos, sin listas, sin formato.
+                Carta: ${card.card}
+                Contexto: ${card.element}. ${card.description}
+                Ahora responde solo con la lectura.`;
+    }
+}
+export const obtain= async(dataRow:TarotCard[]|null,language:boolean):Promise<void>=>{
+    if(!dataRow){
+        console.log(chalk.red("Dato nullo"))
+        return;
+    }
+    await initializeModel();
+    const session =await createSession();
+    for(let id=0;id<dataRow.length;id++){
+        const card:TarotCard = dataRow[id]!;
+        const prompt=buildPrompt(card,language);
+        const response=await session.prompt(prompt);
+        const filePath = `./output/${nameModel}/${language ? "en" : "es"}/${id}.txt`;
+        await saveResponses(filePath,response);
+        console.log(chalk.green(`Respuesta guardada para carta #${id}: ${card.card}`));
+    }
 }

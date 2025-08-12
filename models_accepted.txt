@@ -1,4 +1,4 @@
-androlike/astramix_l2_7b_gguf
+androlike/astramix_l2_7b_gguf ya 
 bartowski/aya-23-8B-GGUF
 bartowski/Llama-3.2-3B-Instruct-GGUF
 bartowski/NemoMix-Unleashed-12B-GGUF
