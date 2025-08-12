@@ -5,12 +5,14 @@ import {getLlama, LlamaChatSession, LlamaModel, resolveModelFile} from "node-lla
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const modelsDirectory = path.join(__dirname, "..", "models");
 let model:LlamaModel;
+export const nameModel="astramix_l2_7b_Q5_K_M"
 export const initializeModel =async()=>{
 
-    const llama = await getLlama({gpu:'metal'});
+    const llama = await getLlama({gpu:'cuda'});
+    console.log(llama.systemInfo)
     console.log(chalk.bgRed('Loading the file....'))
     const modelPath = await resolveModelFile(
-        "astramix_l2_7b_f16.gguf",
+        nameModel+".gguf",
         modelsDirectory
     );
     
@@ -26,4 +28,3 @@ export const createSession =async ()=>{
         contextSequence: context.getSequence()
     });
 }
-initializeModel();
