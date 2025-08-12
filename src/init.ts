@@ -8,7 +8,7 @@ let model:LlamaModel;
 export const nameModel="aya-23-8B-Q6_K"
 export const initializeModel =async()=>{
 
-    const llama = await getLlama({gpu:'cuda'});
+    const llama = await getLlama({gpu:'metal'});
     console.log(llama.systemInfo)
     console.log(chalk.bgRed('Loading the file....'))
     const modelPath = await resolveModelFile(
