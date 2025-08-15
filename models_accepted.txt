@@ -14,7 +14,7 @@ lmstudio-community/Magistral-Small-2506-GGUF
 MaziyarPanahi/Llama-3.1-8B-RainbowLight-EtherealMix-GGUF
 MaziyarPanahi/Mistral-7B-Instruct-Aya-101-GGUF
 MaziyarPanahi/WizardLM-2-7B-GGUF
-Mungert/xLAM-2-3b-fc-r-GGUF
+Mungert/xLAM-2-3b-fc-r-GGUF 
 QuantFactory/Arch-Agent-7B-GGUF
 QuantFactory/Mistral-7B-OpenOrca-GGUF
 Reiterate3680/mini-magnum-12b-v1.1-GGUF
