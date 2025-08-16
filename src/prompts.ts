@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import { createSession,initializeModel,nameModel } from "./init";
+import { createSession,initializeModel } from "./init";
 import { saveResponses, type TarotCard} from "./readfile";
 import { table } from "console";
 function buildPrompt(card: TarotCard, language: boolean): string {
@@ -27,12 +27,12 @@ function buildPrompt(card: TarotCard, language: boolean): string {
                 Ahora responde solo con la lectura.`;
     }
 }
-export const obtain= async(dataRow:TarotCard[]|null,language:boolean):Promise<void>=>{
+export const obtain= async(dataRow:TarotCard[]|null,language:boolean,nameModel:string):Promise<void>=>{
     if(!dataRow){
         console.log(chalk.red("Dato nullo"))
         return;
     }
-    await initializeModel();
+    await initializeModel(nameModel);
     const session =await createSession();
     for(let id=0;id<dataRow.length;id++){
         const card:TarotCard = dataRow[id]!;
