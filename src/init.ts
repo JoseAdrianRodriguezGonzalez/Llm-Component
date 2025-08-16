@@ -21,7 +21,7 @@ export const loadAvailableModels = () => {
 };
 export const initializeModel =async(nameModel:string)=>{
 
-    const llama = await getLlama({gpu:'metal'});
+    const llama = await getLlama({gpu:'cuda'});
     console.log(llama.systemInfo)
     console.log(chalk.bgRed('Loading the file....'))
     const modelPath = await resolveModelFile(
