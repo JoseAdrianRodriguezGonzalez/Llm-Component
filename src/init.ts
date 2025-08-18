@@ -30,14 +30,26 @@ export const initializeModel =async(nameModel:string)=>{
     );
     
     console.log(chalk.yellow('Loading the model...'));
-    model= await llama.loadModel({modelPath});
+    model= await llama.loadModel({modelPath,gpuLayers:9999,contextSize:8192,
+        useMmap:true,useMlcache:true,
+    });
     return model;
 }   
-export const createSession =async ()=>{
+export const createSession =async (language:boolean)=>{
     console.log(chalk.green('creating context...'));
     const context=await model.createContext();
     console.log(chalk.green('Model instanced correctly'));
     return new LlamaChatSession({
-        contextSequence: context.getSequence()
+        systemPrompt: language?"":"Responde siempre en español de manera clara y natural.",
+        contextSequence: context.getSequence(),
+        conversationHistoryMaxMessages: 50,
+        conversationHistoryMaxTokens: 10000,
+        
     });
 }
+export const freeModel = () => {
+    if (model) {
+        console.log(chalk.red("Liberando modelo de memoria..."));
+        model.dispose();
+    }
+};

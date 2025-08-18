@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import { createSession,initializeModel } from "./init";
+import { createSession,freeModel,initializeModel } from "./init";
 import { saveResponses, type TarotCard} from "./readfile";
 import { table } from "console";
 function buildPrompt(card: TarotCard, language: boolean): string {
@@ -33,13 +33,23 @@ export const obtain= async(dataRow:TarotCard[]|null,language:boolean,nameModel:s
         return;
     }
     await initializeModel(nameModel);
-    const session =await createSession();
-    for(let id=0;id<dataRow.length;id++){
-        const card:TarotCard = dataRow[id]!;
-        const prompt=buildPrompt(card,language);
-        const response=await session.prompt(prompt);
-        const filePath = `./output/${nameModel}/${language ? "en" : "es"}/${id}.txt`;
-        await saveResponses(filePath,response);
-        console.log(chalk.green(`Respuesta guardada para carta #${id}: ${card.card}`));
+    const session =await createSession(language);
+    
+    try{
+
+        for(let id=0;id<dataRow.length;id++){
+            const card:TarotCard = dataRow[id]!;
+            const prompt=buildPrompt(card,language);
+            session.resetChatHistory();
+            const response=await session.prompt(prompt);
+            const filePath = `./output/${nameModel}/${language ? "en" : "es"}/${id}.txt`;
+            await saveResponses(filePath,response);
+            console.log(chalk.green(`Respuesta guardada para carta #${id}: ${card.card}`));
+        }
+    }
+    finally{
+        
+        session.dispose();
+        freeModel()
     }
 }

@@ -1,7 +1,0 @@
-gguf
-llama
-llama2
-text-generation
-license:other
-endpoints_compatible
-region:us
