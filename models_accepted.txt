@@ -11,12 +11,12 @@ featherless-ai-quants/IntervitensInc-Mistral-Nemo-Base-2407-chatml-GGUF
 google/gemma-3-1b-it-qat-q4_0-gguf
 hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF
 lmstudio-community/Magistral-Small-2506-GGUF
-MaziyarPanahi/Llama-3.1-8B-RainbowLight-EtherealMix-GGUF
-MaziyarPanahi/Mistral-7B-Instruct-Aya-101-GGUF
-MaziyarPanahi/WizardLM-2-7B-GGUF
-Mungert/xLAM-2-3b-fc-r-GGUF 
-QuantFactory/Arch-Agent-7B-GGUF
-QuantFactory/Mistral-7B-OpenOrca-GGUF
-Reiterate3680/mini-magnum-12b-v1.1-GGUF
-unsloth/Qwen3-4B-GGUF
-unsloth/Qwen3-8B-GGUF
+MaziyarPanahi/Llama-3.1-8B-RainbowLight-EtherealMix-GGUF ya 
+MaziyarPanahi/Mistral-7B-Instruct-Aya-101-GGUF ya
+MaziyarPanahi/WizardLM-2-7B-GGUF ya
+Mungert/xLAM-2-3b-fc-r-GGUF ya
+QuantFactory/Arch-Agent-7B-GGUF ya
+QuantFactory/Mistral-7B-OpenOrca-GGUF ya
+Reiterate3680/mini-magnum-12b-v1.1-GGUF ya
+unsloth/Qwen3-4B-GGUF ya
+unsloth/Qwen3-8B-GGUF ya
