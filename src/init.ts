@@ -21,7 +21,7 @@ export const loadAvailableModels = () => {
 };
 export const initializeModel =async(nameModel:string)=>{
 
-    const llama = await getLlama({gpu:'cuda'});
+    const llama = await getLlama({gpu:'metal'});
     console.log(llama.systemInfo)
     console.log(chalk.bgRed('Loading the file....'))
     const modelPath = await resolveModelFile(
@@ -30,7 +30,11 @@ export const initializeModel =async(nameModel:string)=>{
     );
     
     console.log(chalk.yellow('Loading the model...'));
-    model= await llama.loadModel({modelPath,gpuLayers:9999,contextSize:8192,
+    model= await llama.loadModel({
+        modelPath,
+        gpuLayers:9999,
+        contextSize:16384,
+        batchSize:512,
         useMmap:true,useMlcache:true,
     });
     return model;
@@ -43,7 +47,7 @@ export const createSession =async (language:boolean)=>{
         systemPrompt: language?"":"Responde siempre en español de manera clara y natural.",
         contextSequence: context.getSequence(),
         conversationHistoryMaxMessages: 50,
-        conversationHistoryMaxTokens: 10000,
+        conversationHistoryMaxTokens: 1000,
         
     });
 }
