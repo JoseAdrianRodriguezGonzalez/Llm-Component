@@ -33,7 +33,7 @@ export const initializeModel =async(nameModel:string)=>{
     model= await llama.loadModel({
         modelPath,
         gpuLayers:9999,
-        contextSize:16384,
+        contextSize:8192,
         batchSize:512,
         useMmap:true,useMlcache:true,
     });
@@ -46,8 +46,8 @@ export const createSession =async (language:boolean)=>{
     return new LlamaChatSession({
         systemPrompt: language?"":"Responde siempre en español de manera clara y natural.",
         contextSequence: context.getSequence(),
-        conversationHistoryMaxMessages: 50,
-        conversationHistoryMaxTokens: 1000,
+        conversationHistoryMaxMessages: 1000,
+        conversationHistoryMaxTokens: 9900,
         
     });
 }
