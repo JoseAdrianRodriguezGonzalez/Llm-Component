@@ -1,7 +1,6 @@
 import chalk from "chalk";
 import { createSession,freeModel,initializeModel } from "./init";
 import { saveResponses, type TarotCard} from "./readfile";
-import { table } from "console";
 function buildPrompt(card: TarotCard, language: boolean): string {
     if (language) {
         return `You are a tarot reader. Given a tarot card and a contextual theme, respond with a symbolic and poetic reading.
@@ -41,7 +40,13 @@ export const obtain= async(dataRow:TarotCard[]|null,language:boolean,nameModel:s
             const card:TarotCard = dataRow[id]!;
             const prompt=buildPrompt(card,language);
             session.resetChatHistory();
-            const response=await session.prompt(prompt);
+            const response=await session.prompt(prompt,{
+                temperature: 0.8,         // adds diversity
+                top_p: 0.95,              // nucleus sampling
+                top_k: 50,                // restricts token pool per step
+                repeat_penalty: 1.1,      // reduces repetition
+                maxTokens: 250,           
+            });
             const filePath = `./output/${nameModel}/${language ? "en" : "es"}/${id}.txt`;
             await saveResponses(filePath,response);
             console.log(chalk.green(`Respuesta guardada para carta #${id}: ${card.card}`));
