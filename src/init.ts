@@ -2,7 +2,7 @@ import {fileURLToPath} from "url";
 import path from "path";
 import chalk from "chalk";
 import fs from "fs";
-import {getLlama, LlamaChatSession, LlamaModel, resolveModelFile} from "node-llama-cpp";
+import {getLlama, LlamaChatSession, LlamaLogLevel, LlamaModel, resolveModelFile} from "node-llama-cpp";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const modelsDirectory = path.join(__dirname, "..", "models");
 let model:LlamaModel;
@@ -21,7 +21,13 @@ export const loadAvailableModels = () => {
 };
 export const initializeModel =async(nameModel:string)=>{
 
-    const llama = await getLlama({gpu:'metal'});
+    const llama = await getLlama({gpu:'cuda',
+        debug:'true',
+        LlamaLogLevel:"debug",
+        logger: (level, msg) => {
+            console.log(`[LLAMA LOG][${level}] ${msg}`);
+          }
+    });
     console.log(llama.systemInfo)
     console.log(chalk.bgRed('Loading the file....'))
     const modelPath = await resolveModelFile(
@@ -32,9 +38,8 @@ export const initializeModel =async(nameModel:string)=>{
     console.log(chalk.yellow('Loading the model...'));
     model= await llama.loadModel({
         modelPath,
-        gpuLayers:9999,
-        contextSize:8192,
-        batchSize:512,
+        gpuLayers:999,
+        batchSize:4096,
         useMmap:true,useMlcache:true,
     });
     return model;
