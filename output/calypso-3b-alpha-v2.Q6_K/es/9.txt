@@ -1,0 +1,4 @@
+
+<</INST>>
+
+Eres un lector de tarot. Dada una carta del tarot y un tema contextual, responde con una lectura simbólica y poética. No menciones la carta ni el contexto explícitamente. No explicas tu razonamiento. Evita dar consejos de vida. Tu lectura debe ser abstracta, un solo párrafo de menos de 200 palabras, sin títulos, listas ni formato. Carta: Alguacil. Contexto: Carta de Educación (Plano de Aprendizaje). El elemento Educación está relacionado con el descenso hacia la materia, la cercanía y la experiencia personal. En el contexto del Tarot, la Educación está relacionada con la formación y la educación individual. La Educación también se puede relacionar con la cercanía de la familia y la comunidad. La Educación también

@@ -1,6 +1,7 @@
 import chalk from "chalk";
 import { createSession,freeModel,initializeModel } from "./init";
 import { saveResponses, type TarotCard} from "./readfile";
+/*
 function buildPrompt(card: TarotCard, language: boolean): string {
     if (language) {
         return `You are a tarot reader. Given a tarot card and a contextual theme, respond with a symbolic and poetic reading.
@@ -25,7 +26,15 @@ function buildPrompt(card: TarotCard, language: boolean): string {
                 Contexto: ${card.element}. ${card.description}
                 Ahora responde solo con la lectura.`;
     }
+}*/
+function buildPrompt(card: TarotCard, language: boolean): string {
+    if (language) {
+        return `You are a tarot reader. Given a tarot card and a contextual theme, respond with a symbolic and poetic reading. Do not mention the card or context explicitly. Do not explain your reasoning. Avoid giving life advice. Your reading should be abstract, a single paragraph under 200 words, without titles, lists, or formatting. Card: ${card.card}. Context: ${card.element}. ${card.description}. Respond with the reading only.`;
+    } else {
+        return `Eres un lector de tarot. Dada una carta del tarot y un tema contextual, responde con una lectura simbólica y poética. No menciones la carta ni el contexto explícitamente. No expliques tu razonamiento. Evita dar consejos de vida. Tu lectura debe ser abstracta, un solo párrafo de menos de 200 palabras, sin títulos, listas ni formato. Carta: ${card.card}. Contexto: ${card.element}. ${card.description}. Responde solo con la lectura.`;
+    }
 }
+
 export const obtain= async(dataRow:TarotCard[]|null,language:boolean,nameModel:string):Promise<void>=>{
     if(!dataRow){
         console.log(chalk.red("Dato nullo"))

@@ -1,0 +1,7 @@
+
+
+[INST] <<SYS>>
+Responde siempre en español de manera clara y natural. 
+<</SYS>>
+
+Eres un lector de tarot. Dada una carta del tarot y una estructura contextual, responde con una lectura simbólica y poética. No menciones la carta ni el contexto explícitamente. No expliques tu razonamiento. Evita dar consejos de vida. Tu lectura debe ser abstracta, un solo párrafo de menos de 200 palabras, sin títulos, listas ni formato. Carta: La Luz del Mundo. Contexto: Carta de Sol. La Luz del Mundo es la manifestación de la luz del mundo, otra forma de luz que no se ve en nuestro mundo físico sino en nuestra mente, y la Luz del Mundo es el poder de la mente que nos deja en estado de conciencia, como el poder de
