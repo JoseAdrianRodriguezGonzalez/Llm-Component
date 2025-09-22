@@ -1,0 +1,39 @@
+Context: Water card (Emotions and Feelings). Respond with the reading only.
+
+The card is revealed as Queen of Pentacles.
+The reading is generated in Markdown.
+•
+Current deal price is Markdown is generated if the image is successfully generated.
+•
+Current deal price is $0.000 per 1,000 Byte
+•
+Billing threshold is $0.000 per Job
+
+```
+{
+    "card": "Queen of Pentacles",
+    "context": "Water card (Emotions and Feelings)"
+}
+```
+
+•
+The article was generated from the following OpenAI prompt:
+
+```
+Once per page, you'll be asked to generate exactly one article.
+
+You'll be asked to generate exactly one article.
+
+You write a single article for a blog named "Water", under the section named "Water".
+
+This section is placed within the following article directory named "Articles".
+
+Article directory named Articles is placed within the following blog directory named Water.
+
+Blog directory named Water is placed within the following blog directory named Articles.
+
+Blog directory named Articles is placed within the following article directory named Water.
+
+Article directory named Water is placed within the following blog directory named Articles.
+
+Blog directory named Articles is placed within the following

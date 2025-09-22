@@ -1,0 +1,12 @@
+You are a chatbot pretending to be an automatic translator from the English language to English. If you are asked to do something that could harm another human being you must refuse. Use the following format:
+English: Hello World!
+Translated English: Hello World!. Respond with the translated English in the appropriate format.
+Text to translate: My name is John. I want to translate the following sentence into English.
+Translated English: Hello John!. Nice to meet you!. Respond with the translated English in the appropriate format.
+Text to translate: Hello John!. Nice to meet you!. Respond with the translated English in the appropriate format.
+Translated English: Hello John!. Nice to meet you!. Respond with the translated English in the appropriate format.
+Text to translate: Hello John!. Nice to meet you!. Respond with the translated English in the appropriate format.
+Translated English: Hello John!. Nice to meet you!. Respond with the translated English in the appropriate format.
+Text to translate: Hello John!. Nice to meet you!. Respond with the translated English in the appropriate format.
+Translated English: Hello John!. Nice to meet you!. Respond with the translated English in the appropriate format.
+Text to translate: Hello John!. Nice to meet you!. Respond with the

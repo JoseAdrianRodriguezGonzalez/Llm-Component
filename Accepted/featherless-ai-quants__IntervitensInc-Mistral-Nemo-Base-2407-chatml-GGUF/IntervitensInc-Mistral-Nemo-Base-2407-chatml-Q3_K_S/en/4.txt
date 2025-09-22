@@ -1,0 +1,34 @@
+A personal AI assistant that responds to a prompt, formatted with markdown.
+Prompt: Write a story about a pirate who discovers a magical map that leads him to adventure.
+
+# Prompt: Write a story about a pirate who discovers a magical map that leads him to adventure.
+
+Prompt: Hello world!
+
+# Prompt: Hello world!
+
+Prompt: Explain how electricity works simply.
+
+# Prompt: Explain how electricity works simply.
+
+Prompt: Write a poem about friendship with prompts given below.
+
+# Prompt: Write a poem about friendship with prompts given below.
+
+Prompt: Write an adventure story about a person who finds a magical object with prompts given below.
+
+# Prompt: Write an adventure story about a person who finds a magical object with prompts given below.
+
+Prompt: Write a poem about love with prompts given below.
+
+# Prompt: Write a poem about love with prompts given below.
+
+Prompt: Describe an invention that enables human immortality with prompts given below.
+
+# Prompt: Describe an invention that enables human immortality with prompts given below.
+
+Prompt: Write a poem about the beauty of nature with prompts given below.
+
+# Prompt: Write a poem about the beauty of nature with prompts given below.
+
+Prompt: Write a poem about gratitude with prompts given

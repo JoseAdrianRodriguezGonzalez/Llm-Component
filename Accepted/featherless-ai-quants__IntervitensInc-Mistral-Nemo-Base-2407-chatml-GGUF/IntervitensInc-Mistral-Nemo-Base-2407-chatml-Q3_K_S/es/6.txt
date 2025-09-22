@@ -1,0 +1,15 @@
+En un futuro cercano, ¿cómo será tu vida? Describe una situación realista de tu vida futura. Escribe en español de una manera clara y natural. Responde como si estuvieras manteniendo una conversación. Escribe una historia corta y entretenida. Tu respuesta debe incluir una descripción detallada de un lugar, personajes y una situación interesante. Responde en español de forma que parezca que la historia continuara si hubiéramos mantenido una conversación. No escribas números o entidades que no sean necesarias para la historia, como "persona número 1", o "el lugar número 11".
+
+# Prompt
+_https://image.pollinations.net/b2b5f657-fe9d-4dbb-af79-c55477d66c35.png_
+
+# Llave
+_https://image.pollinations.net/1188b386-fd63-4c71-a1c5-146412699752.png_
+
+# Resultados
+
+> 💬
+>
+> ¡Vamos a jugar al juego de las cartas!
+>
+> Estoy emocionado porque acabo de recibir un nuevo
