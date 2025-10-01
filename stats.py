@@ -50,6 +50,10 @@ def moveLang(model_tags):
             shutil.move(src, dst)
             suma += 1
     print(f"{sum}/{len(model_tags)}")
+def review_prompts():
+    """
+    Check all the prompts and make a csv for english and spanish to make the proper anyalisys
+    """
 if __name__=="__main__":
     with open("models_accepted.txt","w") as file:
         for folders in os.listdir('Accepted'):
