@@ -80,3 +80,14 @@ Detectar abstracción y metáforas →
 Analizar poesía y estilo →
 Combinar con lógica difusa →
 Output con evaluación detallada incluyendo calidad idiomática
+
+```mermaid
+flowchart TD
+    A[Detección y Evaluación del Idioma] --> B[Preprocesamiento y Normalización]
+    B --> C[Extracción de Representaciones Semánticas]
+    C --> D[Evaluación de Claridad y Legibilidad]
+    D --> E[Evaluación de Abstracción]
+    E --> F[Evaluación Poética y Estilística]
+    F --> G[Combinación con Lógica Difusa]
+    G --> H[Salida y Reportes]
+```
