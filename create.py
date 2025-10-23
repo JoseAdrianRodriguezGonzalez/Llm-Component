@@ -1,24 +1,34 @@
-"""
-Create csv files for each models
-Quantization name | language | prompt
-"""
 import pandas as pd
 import os
-models=[model for model in os.listdir("Accepted") if os.path.isdir(os.path.join("Accepted", model))]
-#print((models))
-quantizations=sorted([(model,quant) for model in models for quant in os.listdir("Accepted/"+model)  if os.path.isdir(os.path.join("Accepted",model,quant))])
-for model,quantization in quantizations:
-    Quantization=[]
-    Language=[]
-    Prompt=[]
-    rows=[]
-    for language in sorted(os.listdir(os.path.join("Accepted",model,quantization))):
-        for files in os.listdir(os.path.join("Accepted",model,quantization,language)):
-            with open((os.path.join("Accepted",model,quantization,language,files)),"r") as file:
-                Quantization.append(quantization)
-                Language.append(language)
-                Prompt.append(file.read())
-    rows.append({"Quantization":Quantization,"Language":Language,"Prompt":Prompt})
-    element=pd.DataFrame(rows)
-    element.to_csv(f"{model}+{quantization}.csv")
-    
+
+base_path = "Accepted"
+
+models = [m for m in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, m))]
+
+for model in models:
+    quantizations = sorted([
+        q for q in os.listdir(os.path.join(base_path, model))
+        if os.path.isdir(os.path.join(base_path, model, q))
+    ])
+
+    for quant in quantizations:
+        rows = []
+        quant_path = os.path.join(base_path, model, quant)
+
+        for language in sorted(os.listdir(quant_path)):
+            lang_path = os.path.join(quant_path, language)
+
+            for file_name in os.listdir(lang_path):
+                file_path = os.path.join(lang_path, file_name)
+                with open(file_path, "r", encoding="utf-8") as f:
+                    text = f.read().strip()
+
+                rows.append({
+                    "Quantization": quant,
+                    "Language": language,
+                    "Prompt": text
+                })
+
+        # Crear DataFrame con una fila por prompt
+        df = pd.DataFrame(rows)
+        df.to_csv(f"{model}+{quant}.csv", index=False)
