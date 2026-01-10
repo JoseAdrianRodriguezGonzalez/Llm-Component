@@ -91,3 +91,19 @@ flowchart TD
     F --> G[Combinación con Lógica Difusa]
     G --> H[Salida y Reportes]
 ```
+
+> [!NOTE]
+>  La organización de las carpetas actualmente tienen el siguiente fundamento
+* data: Contiene los textos y significados de las cartas
+* Accepted: Están las salidas ordenadas por modelo.
+* models: Carpeta donde se guardan modelos
+* output: La salida de scripts de prueba
+* prompts: El conjunto de pruebas donde están actualmente los prompts por modelo
+* revier: entorno de python
+* src: Es el archivo fuente donde puedes hacer la llamada a los modelos de tipo GGUF. 
+* test: Carpeta donde es un vertedero de prubeas
+
+> [!WARNING]
+>
+> Los archivos circundantes,como archivos de configuracion o archvios ocultos, adicionalmente de json están presentes.
+Los archivos de python que se encuentran aquí, el `create.py`, permite crear el formato de los prompts y `stats.py`, descarga la metadata de los modelos
