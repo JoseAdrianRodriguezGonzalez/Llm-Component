@@ -38,8 +38,8 @@ export const initializeModel =async(nameModel:string)=>{
     console.log(chalk.yellow('Loading the model...'));
     model= await llama.loadModel({
         modelPath,
-        gpuLayers:999,
-        batchSize:4096,
+        gpuLayers:20,
+        batchSize:64,
         useMmap:true,useMlcache:true,
     });
     return model;
