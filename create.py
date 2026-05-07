@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 
-base_path = "Accepted"
-
+#base_path = "Accepted"
+base_path="output"
 models = [m for m in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, m))]
 
 for model in models:
