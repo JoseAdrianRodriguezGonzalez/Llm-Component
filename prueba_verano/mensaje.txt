@@ -1,0 +1,173 @@
+Huatulco
+
+0_snorkel_snorkeling_equipo_peces: Snorkel y vida marina (actividad estrella)
+
+Experiencias acuáticas
+
+arrecifes, cenotes, peces
+
+
+
+8_sillas_restaurantes_restaurante_playa: Restaurantes frente al mar / beach clubs comer en la playa
+
+camastros, sombrillas
+
+experiencia relajada
+
+54_arena_blanca_exterior_borde:
+
+Paisaje de playa (arena blanca, vistas)
+
+20_barco_barcos_bote_crucero
+
+Turismo relajado y social
+
+La paz
+
+2_iglesia_catedral_misa_arquitectura:
+
+Turismo cultural y religioso
+iglesias icónicas
+arquitectura histórica
+puntos centrales de ciudades
+
+14_paz_paz_____ent_la_malecon
+Identidad local (La Paz / malecón / ciudad)
+muy específico de destino
+branding urbano
+
+0_snorkel_snorkeling_equipo_peces
+Snorkel y vida marina
+
+21_bicicleta_bici_andar_bicicletas
+Movilidad recreativa (bicicleta / paseo)
+
+7_esculturas_estatuas_malecon_maritimo
+Malecón y arte urbano
+paseos costeros
+esculturas icónicas
+
+18_familia_familiar_amigos_pasear
+Turismo relajado y social
+
+puerto vallarta 
+
+2_iglesia_catedral_misa_arquitectura:
+Turismo cultural y religioso
+iglesias icónicas
+arquitectura histórica
+puntos centrales de ciudades
+
+7_esculturas_estatuas_malecon_maritimo
+ arte urbano, estatuas 
+paseos costeros
+esculturas icónicas
+
+10_deportivo_puerto_barcos_jueves
+Actividad portuaria / marina / tours en barco
+
+
+12___ent_fuimos___tema___ent_ademas___fue: review de logisitca correcta
+
+6_tiendas_restaurantes_bares_vendedores: Zona comercial y vida urbana turística
+restaurantes, bares, tiendas
+interacción con vendedores
+experiencia de calle / malecón
+
+22_tequila_finca_agave_degustacion
+Turismo gastronómico (tequila y agave)
+
+riviera maya 
+
+1_animales_zoologico_cocodrilos_monos:
+Interacción con fauna / zoológicos
+parques tipo Crococun, Xcaret
+experiencias familiares
+contacto directo con animales
+
+3_tortugas_akumal_tortuga_snorkel:
+Snorkel con tortugas (experiencia específica premium)
+actividad muy concreta (Akumal)
+naturaleza + experiencia guiada
+subconjunto del snorkel pero muy distintivo
+
+0_snorkel_snorkeling_equipo_peces:
+Snorkel y vida marina (actividad estrella)
+Experiencias acuáticas
+arrecifes, cenotes, peces
+
+5_habitacion_hotel_pullman_pattaya:
+reviews de hoteles
+
+9_cuevas_cueva_secreto_cavernas:
+Exploración de cuevas y cenotes
+turismo de aventura
+cavernas subterráneas
+muy Riviera Maya
+
+6_tiendas_restaurantes_bares_vendedores
+Zona comercial y vida urbana turística
+restaurantes, bares, tiendas
+interacción con vendedores
+experiencia de calle / malecón
+
+riviera nayarit
+4_delfines_toboganes_acuatico_parque:
+
+Parques acuáticos y experiencias con animales
+
+nado con delfines
+
+parques tipo Xel-Há / Dolphin Discovery
+
+turismo familiar organizado
+
+
+
+1_animales_zoologico_cocodrilos_monos:
+
+Interacción con fauna / zoológicos
+
+parques tipo Crococun, Xcaret
+
+experiencias familiares
+
+contacto directo con animales
+
+11_with_sparkles_mark_pushpin
+
+Ambiente familiar y recreación social
+
+paseos con familia/amigos
+
+ocio general
+
+
+
+8_sillas_restaurantes_restaurante_playa:
+
+Restaurantes frente al mar / beach clubs
+
+comer en la playa
+
+camastros, sombrillas
+
+experiencia relajada
+
+
+
+29_arena_olas_suave_limpia:
+
+Calidad de playa (arena y olas)
+
+
+
+3_tortugas_akumal_tortuga_snorkel:
+
+Snorkel con tortugas (experiencia específica premium)
+
+actividad muy concreta (Akumal)
+
+naturaleza + experiencia guiada
+
+subconjunto del snorkel pero muy distintivo
